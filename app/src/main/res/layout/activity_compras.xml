@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".compras">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <EditText
+            android:id="@+id/etCodigoc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/etIngreseCodigo"
+            android:inputType="textPersonName" />
+
+        <Button
+            android:id="@+id/btnBuscarc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/btnBuscar" />
+
+        <TextView
+            android:id="@+id/tvNombreProductoc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/vtStockc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/vtPrecioVentac"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TextView" />
+
+        <EditText
+            android:id="@+id/etCantidadc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/etCantidad"
+            android:inputType="textPersonName" />
+
+        <TextView
+            android:id="@+id/tvTotalPagarc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TextView" />
+
+        <Button
+            android:id="@+id/btnTotalPagarc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/btnTotalPagar" />
+
+        <Button
+            android:id="@+id/btnVenderc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/btnVender" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

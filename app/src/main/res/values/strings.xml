@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">Base de Datos Firebase</string>
+    <string name="btnRegist">Registrar</string>
+    <string name="usuario">Ingrese Usuario</string>
+    <string name="password">Ingrese Contraseña</string>
+    <string name="btnIngresar">Ingresar</string>
+    <string name="btnRegistUsu">Registrar</string>
+
+
+    <string name="btnActualizar">Actualizar</string>
+    <string name="btnSalir">Salir</string>
+    <string name="etIngreseCedula">Ingrese Cédula</string>
+    <string name="etIngreseNOmbre">Ingrese Nombre</string>
+    <string name="rbHombre">Hombre</string>
+    <string name="rbrMujer">Mujer</string>
+    <string name="IngreseProvincia">Ingrese Provincia</string>
+    <string name="tvCorreo">Correo</string>
+
+    <string name="etIngreseCodigo">Ingrese Código</string>
+    <string name="etIngreseNOmbreProducto">Ingrese Nombre del Producto</string>
+    <string name="etIngreseStock">Ingrese Stock</string>
+    <string name="etIngresePrecioCosto">Ingrese precio costo</string>
+    <string name="IngresePrecioVenta">Ingrese precio de venta</string>
+    <string name="btnGuardar">Guardar</string>
+    <string name="btnBuscar">Buscar</string>
+    <string name="btnBorrar">Borrar</string>
+    <string name="btnRegresar">Regresar</string>
+
+    <string name="etCantidad">Ingrese la cantidad</string>
+    <string name="btnTotalPagar">Total a pagar</string>
+    <string name="btnVender">Vender</string>
+
+
+</resources>

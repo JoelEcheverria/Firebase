@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".persona">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <EditText
+            android:id="@+id/etCedula"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/etIngreseCedula"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/etNombre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/etIngreseNOmbre"
+            android:inputType="textPersonName" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/rbHombre"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/rbHombre" />
+
+            <RadioButton
+                android:id="@+id/rbMujer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/rbrMujer" />
+        </RadioGroup>
+
+        <Spinner
+            android:id="@+id/spinnerp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/etProvincia"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/IngreseProvincia"
+            android:inputType="textPersonName" />
+
+        <TextView
+            android:id="@+id/tvCorreo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/tvCorreo" />
+
+        <Button
+            android:id="@+id/btnActualizars"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/btnActualizar" />
+
+        <Button
+            android:id="@+id/btnSalir"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/btnSalir" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".producto">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <EditText
+            android:id="@+id/etCodigo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/etIngreseCodigo"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/etNomProducto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/etIngreseNOmbreProducto"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/etStock"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/etIngreseStock"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/etPCosto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/etIngresePrecioCosto"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/etPVenta"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/IngresePrecioVenta"
+            android:inputType="textPersonName" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnGuardarp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="guardar"
+                android:text="@string/btnGuardar" />
+
+            <Button
+                android:id="@+id/btnActualizarp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="actualizar"
+                android:text="@string/btnActualizar" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnBuscarp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="buscar"
+                android:text="@string/btnBuscar" />
+
+            <Button
+                android:id="@+id/btnBorrarp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="borrar"
+                android:text="@string/btnBorrar" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnRegresarp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="salir"
+            android:text="@string/btnRegresar" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
